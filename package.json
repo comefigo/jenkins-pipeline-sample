@@ -1,0 +1,35 @@
+{
+    "name": "jenkins-pipeline-sample",
+    "version": "1.0.0",
+    "description": "sample of jenkins pipeline",
+    "main": "web/main.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/comefigo/jenkins-pipeline-sample.git"
+    },
+    "keywords": [
+        "jenkins",
+        "pipeline",
+        "javascript",
+        "jasmine",
+        "slack",
+        "ci"
+    ],
+    "author": "comefigo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/comefigo/jenkins-pipeline-sample/issues"
+    },
+    "homepage": "https://github.com/comefigo/jenkins-pipeline-sample#readme",
+    "devDependencies": {
+        "jasmine-core": "^2.5.2",
+        "karma": "^1.4.1",
+        "karma-chrome-launcher": "^2.0.0"
+    }
+}
