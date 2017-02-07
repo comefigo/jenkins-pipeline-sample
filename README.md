@@ -36,3 +36,12 @@ ref .ssh/config
 ssh -T git@sample.github.com
 ```
 
+# plugin
+
+- Build Authorization Token Root Plugin
+- Slack Notification Plugin
+
+
+# webhooks
+
+http://jenkins-host:8080/jenkins/buildByToken/build?job=sample-jenkins&token=1234567890
