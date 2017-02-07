@@ -3,9 +3,9 @@ function MySample() {
 }
 
 MySample.prototype.plus = function() {
-    return this.num++;
+    return this.num + 1;
 };
 
 MySample.prototype.minus = function() {
-    return this.minus--;
+    return this.num - 1;
 };
